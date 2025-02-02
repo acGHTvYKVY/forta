@@ -1,1 +1,7 @@
+#!/bin/sh -e
+export HOME=/root
 
+sleep 1
+eval "cd /root/forta && ./run.sh"
+
+exit 0
